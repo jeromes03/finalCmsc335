@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- For responsive page -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basic HTML5 Document">
+    <meta name="keywords" content="HTML5, Responsive">
+    <link rel="icon" href="umd.png" type="image/png">
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <title>MoviesForYou!</title>
+</head>
+
+<body>
+    <h1>Thank you for joining MoviesForYou</h1>
+    <p>Choose your season and we'll give you a movie to watch!</p>
+
+    <form action="http://localhost:3000/userNextPage" method="get">
+		<fieldset>
+            <legend>Movie Recommendation!</legend>
+            Choose the genre of movie you would like to watch
+            <br>
+            <label for="action">
+                <input type="radio" id="action" name="movieType" value="Action">
+                Action
+              </label>
+            
+              <label for="adventure">
+                <input type="radio" id="adventure" name="movieType" value="Adventure">
+                Adventure
+              </label>
+            
+              <label for="animation">
+                <input type="radio" id="animation" name="movieType" value="Animation">
+                Animation
+              </label>
+            
+              <label for="comedy">
+                <input type="radio" id="comedy" name="movieType" value="Comedy">
+                Comedy
+              </label>
+
+              <label for="crime">
+                <input type="radio" id="crime" name="movieType" value="Crime">
+                Crime
+              </label>
+        </fieldset>
+        <input type="reset" />
+		<input type="submit" />
+    </form>
+</body>
+
+</html>

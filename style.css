@@ -1,0 +1,56 @@
+#homeBody {
+    background-color: black;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    width: 25rem;
+    padding: 10rem;
+}
+
+#invalidBody {
+    background-color: black;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#movieBody { 
+    background-color: black;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+    padding:20rem;
+}
+
+#returnBody{
+    background-color: black;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    width: 33rem;
+    text-align: center;
+    padding: 20rem
+}
+
+.movie {
+    text-align: center;
+}
+
+.formBox {
+    margin: auto;
+    width: 17rem;
+    padding: 2rem;
+    top: 30rem;
+}
+
+.title {
+    color: maroon;
+    text-align: center;
+}
+
+#name {
+    color: white;
+    font-size: 3rem;
+}
+
